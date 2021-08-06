@@ -6,10 +6,9 @@ def lucky_number (name):
 lucky_number ("Isabella")
 lucky_number ("Amelie")
 
-def month_days (month, days):
-    
+def month_days(month, days):
+    print (month + " has " + str(days) + " days.")
+month_days("June", 30)
+month_days("July", 31)
 
-month_days = 30
-print("June has " + str(june_days) + " days.")
-month_days = 31
-print("July has " + str(july_days) + " days.")
+
