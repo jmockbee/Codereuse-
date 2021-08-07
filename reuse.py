@@ -11,4 +11,8 @@ def month_days(month, days):
 month_days("June", 30)
 month_days("July", 31)
 
+def rectangle_area(base, height):
+	area = base * height  
+	print("The area is " + str(area))
 
+rectangle_area (4,3 )
